@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+}
+
+.header-links {
+    padding: 24px;
+    text-align: right;
+}
+
+.header-links:hover {
+    color: grey;
+    -webkit-transition: color;
+    -o-transition: color;
+    transition: color;
+}
+
+.header-links a {
+    color: white;
+    margin-left: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcome-inner {
+    text-align: center;
+    padding: 240px 0;
+}
+
+.welcome {
+    background-image: url('../images/3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.welcome-inner h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+.welcome-inner h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+#welcome-button:hover {
+    background-color: brown;
+    /* transform: translate(100px); */
+    transition: 0.5s;
+}
+
+button {
+    padding: 20px 36px;
+    background-color: #4985FF;
+    border: none;
+    color: white;
+    border-radius: 100px;
+}
+
+.about-inner {
+    text-align: center;
+    padding: 105px 0;
+}
+
+.about-inner h1 {
+    font-size: 36px;
+}
+
+.about-inner p {
+    opacity: 0.4;
+}
+
+.about-item {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 33%;
+}
+
+.about-text {
+    padding-top: 40px;
+    width: 50%;
+    display: inline-block;
+}
+
+.about-item img {
+    width: 33%;
+}
+
+.about-text h2 {
+    font-size: 18px;
+}
+
+.about-text p {
+    font-size: 14px;
+}
+
+.about-list {
+    padding: 70px 0 55px;
+}
+
+.services {
+    background-color: #f0f0f0;
+}
+
+.services-inner {
+    padding: 105px 0;
+}
+
+.services-text h2 {
+    font-size: 36px;
+}
+
+.services-text p {
+    opacity: 0.3;
+}
+
+.services-text {
+    padding-right: 60px;
+}
+
+.services-image {
+    width: 35%;
+}
+
+hr {
+    margin: 105px 0;
+}
+
+.services-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.services-item h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.services-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.works-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.works-title h1 {
+    font-size: 36px;
+    color: white;
+}
+
+.works-inner {
+    padding: 100px 0;
+}
+
+.works-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.works-item {
+    width: 30%;
+}
+
+.works-item h2 {
+    font-size: 18px;
+}
+
+.works-item h2 span {
+    color: #4985FF;
+}
+
+.works-item p {
+    color: #999999;
+}
+
+.works {
+    background-image: url('../images/works-bg.png');
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
+.port {
+    background-color: #F8F6F8;
+}
+
+.port-inner {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.port-inner h1 {
+    font-size: 36px;
+}
+
+.port-inner p {
+    font-size: 18px;
+    color: #999999;
+    margin-bottom: 70px;
+}
+
+.port-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.port-images img {
+    width: 23%;
+}
+
+.video {
+    background-image: url('../images/video-bg.png');
+    background-repeat: no-repeat;
+}
+
+.video-inner h1 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.video-inner p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.video-inner {
+    padding: 100px 0;
+}
+
+.video-box {
+    background-image: url(../images/video-image.png);
+    background-size: cover;
+    height: 480px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.video-button span {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 24px;
+    border-radius: 100px;
+}
+
+.video-button span img {
+    margin-right: 12px;
+}
+
+.sub-inner {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.sub-input {
+    width: 480px;
+    /* border: 1px solid black; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 40px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 20px 0 #999999;
+    box-shadow: 0 0 20px 0 #999999;
+}
+
+.sub-input input {
+    padding: 12px 36px;
+    width: 60%;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+.sub-input span {
+    width: 40%;
+    padding: 12px;
+    background-color: #4985FF;
+    font-size: 16px;
+    color: white;
+}
+
+.sub-input h1 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.sub-input p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #E0E0E0;
+}
+
+.footer-content {
+    padding: 70px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-item {
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-item {
+    padding: 15px 0;
+}
+
+.footer-l {
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #999999;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    display: none;
+}
+
+.modal-closed {
+    height: 10vh;
+    background-color: white;
+    text-align: right;
+}
+
+@media (max-width:720px) {
+    .container {
+        width: auto;
+        margin: 0 10px;
+    }
+    .welcome-inner h1 {
+        font-size: 20px;
+    }
+    .header-links p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    header {
+        display: none;
+    }
+    .welcome-inner {
+        padding: 120px 0;
+    }
+    .about-inner h1 {
+        font-size: 24;
+        line-height: 32px;
+    }
+    .about-inner p {
+        font-size: 14px;
+    }
+    .about-item {
+        display: block;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .services-info {
+        display: block;
+    }
+    .services-image {
+        width: 100%;
+    }
+    .services-item {
+        width: 40%;
+    }
+    .services-list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .works-list {
+        display: block;
+    }
+    .works-item {
+        width: 100%;
+    }
+    .port-images {
+        width: 80%;
+    }
+    .port-inner p {
+        width: 80%;
+    }
+    .port-inner h1 {
+        width: 80%;
+    }
+    .video-inner h1 {
+        width: 80%;
+    }
+    .video-inner p {
+        width: 80%;
+    }
+    .video-box {
+        width: 80%;
+    }
+    .sub-inner h1 {
+        width: 80%;
+    }
+    .sub-inner p {
+        width: 80%;
+    }
+    .sub-input {
+        width: 60%;
+    }
+    .footer-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+}
